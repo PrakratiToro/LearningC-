@@ -1,0 +1,79 @@
+{
+  "team": "STG Optimus",
+  "product": "HAVEN Mobile App",
+  "sprints": [
+    {
+      "sprint_id": "3.10",
+      "bugs": {
+        "closed": 12,
+        "resolved": 13
+      },
+      "user_stories": {
+        "closed": 0,
+        "resolved": 1
+      },
+      "summary_tags": [
+        "bug_cleanup",
+        "tech_stabilization"
+      ]
+    },
+    {
+      "sprint_id": "3.11",
+      "bugs": {
+        "closed": 8,
+        "resolved": 12
+      },
+      "user_stories": {
+        "closed": 6,
+        "resolved": 8
+      },
+      "summary_tags": [
+        "recovery",
+        "healthy_mix"
+      ]
+    },
+    {
+      "sprint_id": "3.12",
+      "bugs": {
+        "closed": 3,
+        "resolved": 7
+      },
+      "user_stories": {
+        "closed": 2,
+        "resolved": 4
+      },
+      "summary_tags": [
+        "moderate_output"
+      ]
+    },
+    {
+      "sprint_id": "3.13",
+      "bugs": {
+        "closed": 6,
+        "resolved": 11
+      },
+      "user_stories": {
+        "closed": 3,
+        "resolved": 7
+      },
+      "summary_tags": [
+        "steady_progress"
+      ]
+    },
+    {
+      "sprint_id": "3.14",
+      "bugs": {
+        "closed": 3,
+        "resolved": 8
+      },
+      "user_stories": {
+        "closed": 3,
+        "resolved": 7
+      },
+      "summary_tags": [
+        "consistency",
+        "improving_quality"
+      ]
+    }
+  ]
+}

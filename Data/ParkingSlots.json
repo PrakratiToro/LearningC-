@@ -1,0 +1,12 @@
+{
+  "parking": {
+    "twoWheeler": {
+      "totalSlots": 21,
+      "availableSlots": 15
+    },
+    "fourWheeler": {
+      "totalSlots": 16,
+      "availableSlots": 5
+    }
+  }
+}
