@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="ApiTest.WinUI.App"
+    x:Class="BasicCalc.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:ApiTest.WinUI">
+    xmlns:local="using:BasicCalc.WinUI">
 
 </maui:MauiWinUIApplication>

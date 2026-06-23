@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace ApiTest;
+namespace BasicCalc;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

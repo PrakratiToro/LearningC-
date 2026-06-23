@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace ApiTest;
+namespace BasicCalc;
 
 class Program : MauiApplication
 {

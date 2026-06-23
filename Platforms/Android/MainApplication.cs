@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace ApiTest;
+namespace BasicCalc;
 
 [Application]
 public class MainApplication : MauiApplication
