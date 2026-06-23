@@ -1,4 +1,4 @@
-﻿namespace BasicCalc;
+﻿namespace BMI;
 
 public partial class MainPage : ContentPage
 {

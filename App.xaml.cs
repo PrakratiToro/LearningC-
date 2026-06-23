@@ -1,4 +1,6 @@
-﻿namespace BasicCalc;
+﻿using BMI.MVVM.Views;
+
+namespace BMI;
 
 public partial class App : Application
 {
@@ -9,6 +11,6 @@ public partial class App : Application
 
     protected override Window CreateWindow(IActivationState? activationState)
     {
-        return new Window(new CalcView());
+        return new Window(new BMIView());
     }
 }

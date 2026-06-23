@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace BasicCalc;
+namespace BMI;
 
 class Program : MauiApplication
 {
