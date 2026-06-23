@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace AIPoweredApp;
+namespace ApiTest;
 
 public class Program
 {

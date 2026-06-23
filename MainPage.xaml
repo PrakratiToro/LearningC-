@@ -1,51 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AIPoweredApp.MainPage"
-             BackgroundColor="#0A0A0F">
+             x:Class="ApiTest.MainPage">
 
-    <Grid RowDefinitions="Auto,*,Auto" Padding="16">
-
-        <!-- HEADER -->
-        <StackLayout Grid.Row="0" Orientation="Horizontal" VerticalOptions="Center" Spacing="12">
-            <Label Text="✦ TURANT" TextColor="White" FontSize="22" FontAttributes="Bold"/>
-            <Label Text="POWERED BY TORO" TextColor="#94A3B8" FontSize="12" VerticalOptions="Center"/>
-        </StackLayout>
-
-        <!-- CHAT AREA -->
-        <ScrollView Grid.Row="1" x:Name="ChatScrollView" Padding="0,8">
-            <StackLayout x:Name="ChatStack" Spacing="8">
-                <!-- Initial welcome message -->
-                <Label Text="Hello, I'm Turant. Ask me anything!" TextColor="#94A3B8"/>
-            </StackLayout>
-        </ScrollView>
+    <StackLayout Padding="20">
+        <Button Text="Get API Response"
+                TextColor="Black"
+                BackgroundColor="Pink"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Command="{Binding GetResponse}" />
         
-        <!-- INPUT AREA -->
-        <StackLayout Grid.Row="2" Spacing="4">
-    
-            <Grid ColumnDefinitions="*,Auto" ColumnSpacing="8">
-                <Editor x:Name="PromptEditor"
-                        Placeholder="Type your message..."
-                        PlaceholderColor="#9CA3AF"
-                        TextColor="White"
-                        BackgroundColor="#141420"
-                        FontSize="15"
-                        AutoSize="TextChanges"
-                        MinimumHeightRequest="40"
-                        MaximumHeightRequest="120"/>
+        <Button Text="Post API Response"
+                TextColor="Black"
+                BackgroundColor="Pink"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Command="{Binding PostResponse}" />
+    </StackLayout>
 
-                <Button Grid.Column="1"
-                        Text="Send"
-                        BackgroundColor="#E23B3B"
-                        TextColor="White"
-                        Clicked="OnSendTapped"/>
-            </Grid>
-
-            <!-- Label to show the last AI response -->
-            <Label x:Name="ResponseLabel"
-                   TextColor="#D3D3D3"
-                   FontSize="14"
-                   LineBreakMode="WordWrap"/>
-        </StackLayout>
-    </Grid>
 </ContentPage>

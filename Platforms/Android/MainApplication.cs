@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace AIPoweredApp;
+namespace ApiTest;
 
 [Application]
 public class MainApplication : MauiApplication
